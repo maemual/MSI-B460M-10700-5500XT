@@ -2,6 +2,7 @@
 hackintosh: OpenCore + MSI B460M Mortar + i7 10700 + 5500XT
 
 UPDATE:
+- 2020-12-30：升级 OpenCore 0.6.4 和 macOS 11.1，尚未发现问题
 - 2020-11-13：升级 macOS 11 Big Sur 正式版（11.0.1）一次成功，尚未发现问题
 
 以下基于 OpenCore 0.6.3 版本。
