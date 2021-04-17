@@ -2,6 +2,7 @@
 hackintosh: OpenCore + MSI B460M Mortar + i7 10700 + 5500XT
 
 UPDATE:
+- 2021-04-17：升级 macOS 11.2.3 & OpenCore 0.6.8。遇到了 USB 引导启动之后 hackintool 无法识别 OpenCore 新版本；用硬盘系统引导黑屏的情况。reset NVRAM 之后就好了。
 - 2021-02-16：升级 macOS 11.2.1，尚未发现问题
 - 2021-02-06：升级 OpenCore 0.6.6 和 macOS 11.2，尚未发现问题
 - 2020-12-30：升级 OpenCore 0.6.4 和 macOS 11.1，尚未发现问题
