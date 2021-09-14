@@ -907,7 +907,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 agdpmod=pikera alcid=1</string>
+				<string>keepsyms=1 swd_panic=1 agdpmod=pikera alcid=1</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
@@ -1049,8 +1049,22 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>HfsPlus.efi</string>
-			<string>OpenRuntime.efi</string>
+			<dict>
+				<key>Path</key>
+				<string>HfsPlus.efi</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Arguments</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>Path</key>
+				<string>OpenRuntime.efi</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Arguments</key>
+				<string></string>
+			</dict>
 		</array>
 		<key>Input</key>
 		<dict>
@@ -1162,6 +1176,8 @@
 			<key>ForgeUefiSupport</key>
 			<false/>
 			<key>ReloadOptionRoms</key>
+			<false/>
+			<key>ForceOcWriteFlash</key>
 			<false/>
 		</dict>
 		<key>ReservedMemory</key>
