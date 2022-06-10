@@ -747,6 +747,10 @@
 			<integer>-1</integer>
 			<key>ProvideCurrentCpuInfo</key>
 			<false/>
+			<key>CustomPciSerialDevice</key>
+			<false/>
+			<key>ForceAquantiaEthernet</key>
+			<false/>
 		</dict>
 		<key>Scheme</key>
 		<dict>
@@ -805,8 +809,6 @@
 			<integer>0</integer>
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
-			<key>SerialInit</key>
-			<false/>
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
@@ -837,8 +839,6 @@
 		</array>
 		<key>Security</key>
 		<dict>
-			<key>AllowNvramReset</key>
-			<true/>
 			<key>AllowSetDefault</key>
 			<true/>
 			<key>ApECID</key>
@@ -865,8 +865,6 @@
 			<string>Optional</string>
 			<key>BlacklistAppleUpdate</key>
 			<true/>
-			<key>AllowToggleSip</key>
-			<false/>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -891,6 +889,13 @@
 				<string>OpenShell:UEFIShell:Shell</string>
 			</dict>
 		</array>
+		<key>Serial</key>
+		<dict>
+			<key>Init</key>
+			<false/>
+			<key>Override</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>NVRAM</key>
 	<dict>
