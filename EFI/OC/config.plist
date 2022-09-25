@@ -887,6 +887,8 @@
 				<false/>
 				<key>Flavour</key>
 				<string>OpenShell:UEFIShell:Shell</string>
+				<key>FullNvramAccess</key>
+				<false/>
 			</dict>
 		</array>
 		<key>Serial</key>
@@ -943,8 +945,6 @@
 				<string>boot-args</string>
 			</array>
 		</dict>
-		<key>LegacyEnable</key>
-		<false/>
 		<key>LegacyOverwrite</key>
 		<false/>
 		<key>LegacySchema</key>
@@ -1071,6 +1071,8 @@
 				<string></string>
 				<key>Comment</key>
 				<string>HFS+ Driver</string>
+				<key>LoadEarly</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Path</key>
@@ -1081,6 +1083,8 @@
 				<string></string>
 				<key>Comment</key>
 				<string></string>
+				<key>LoadEarly</key>
+				<false/>
 			</dict>
 		</array>
 		<key>Input</key>
