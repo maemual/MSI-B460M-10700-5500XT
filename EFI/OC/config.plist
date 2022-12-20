@@ -796,6 +796,8 @@
 			<string>Default</string>
 			<key>PickerVariant</key>
 			<string>Auto</string>
+			<key>HibernateSkipsPicker</key>
+			<false/>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -1258,6 +1260,12 @@
 			<integer>80</integer>
 			<key>PointerPollMin</key>
 			<integer>10</integer>
+			<key>PointerDwellClickTimeout</key>
+			<integer>0</integer>
+			<key>PointerDwellDoubleClickTimeout</key>
+			<integer>0</integer>
+			<key>PointerDwellRadius</key>
+			<integer>0</integer>
 		</dict>
 	</dict>
 </dict>
