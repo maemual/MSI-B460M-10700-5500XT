@@ -2,7 +2,7 @@
 hackintosh: OpenCore + MSI B460M Mortar + i7 10700 + 5500XT
 
 UPDATE:
-- 2023-02-12：升级 macOS 13.2.1 & OpenCore 0.9.0，尚未发现问题
+- 2023-03-25：升级 macOS 13.2.1 & OpenCore 0.9.0，尚未发现问题
 - 2023-02-12：升级 macOS 13.2 & OpenCore 0.8.8，尚未发现问题
 - 2022-12-19：升级 macOS 13.1 & OpenCore 0.8.7，尚未发现问题
 - 2022-11-09：升级 macOS 13.0 & OpenCore 0.8.5，更新 kext 到最新版本,尚未发现问题
